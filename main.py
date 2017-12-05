@@ -13,7 +13,7 @@ def validate():
     password = request.form['password']
     verify = request.form['verify']
     email = request.form['email']
-    errors = False
+
     username_error = ""
     password_error = ""
     verify_error = ""
